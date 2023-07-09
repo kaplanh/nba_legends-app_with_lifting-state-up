@@ -1,0 +1,17 @@
+.card{
+    opacity: 1;
+    transition: all 1.5s;
+    &:hover{
+        opacity: .8;
+        scale: .8;
+    }
+}
+
+ul{
+    list-style-type: none;
+    >li {
+        line-height: 3rem;
+        color:#1D4289;
+
+    }
+}
