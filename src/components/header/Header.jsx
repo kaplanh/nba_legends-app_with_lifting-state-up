@@ -7,7 +7,7 @@ const Header = ({ setSearch }) => {
             <h1>NBA Legends</h1>
             <input
                 onChange={(e) => setSearch(e.target.value)}
-                className="form-control w-50 mx-auto"
+                className="form-control w-50 mx-auto m-5"
                 type="search"
                 name="name"
                 id="name"
